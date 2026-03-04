@@ -28,13 +28,7 @@ The dataset is provided in ENVI format, which includes:
 
 - `.hdr` files (header files containing metadata)
 - Corresponding binary image files
-
-The `.hdr` files store essential metadata such as:
-- Number of spectral bands  
-- Wavelength information  
-- Spatial resolution  
-- Data type and format  
-
+ 
 These files are crucial for correctly reading and interpreting hyperspectral data using remote sensing libraries such as rasterio, GDAL, or spectral Python (SPy).
  
 ## Steps
