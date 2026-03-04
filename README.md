@@ -16,11 +16,26 @@ This project demonstrates the application of Artificial Intelligence and Deep Le
 
 ## Dataset
 
+## Dataset
+
 The dataset used in this project was obtained from Mendeley Data:
 
 https://data.mendeley.com/datasets/3j5w87djyh/1
 
 The dataset consists of hyperspectral and multi-band satellite imagery along with labeled crop classes for supervised learning. It provides high-dimensional spectral information that enables detailed crop discrimination based on reflectance characteristics.
+
+The dataset is provided in ENVI format, which includes:
+
+- `.hdr` files (header files containing metadata)
+- Corresponding binary image files
+
+The `.hdr` files store essential metadata such as:
+- Number of spectral bands  
+- Wavelength information  
+- Spatial resolution  
+- Data type and format  
+
+These files are crucial for correctly reading and interpreting hyperspectral data using remote sensing libraries such as rasterio, GDAL, or spectral Python (SPy).
  
 ## Steps
 
